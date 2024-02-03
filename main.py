@@ -10,7 +10,7 @@ from mapapi_PG import show_map
 api_server = "http://static-maps.yandex.ru/1.x/"
 lon = "37.530887"
 lat = "55.703118"
-delta = "0.002"
+delta = "0.5"
 
 params = {
     "ll": ",".join([lon, lat]),
